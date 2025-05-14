@@ -3,7 +3,7 @@ from datetime import datetime
 from langchain_core.messages import HumanMessage,AIMessage
 
 
-connection_string = "mongodb://localhost:27017/"
+connection_string = "mongodb+srv://hamas:1234567890@cluster0.jszpu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
 def save_chat(data:dict):
     data["created_at"] = datetime.now()
